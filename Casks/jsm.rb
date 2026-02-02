@@ -14,22 +14,22 @@ cask "jsm" do
   on_macos do
     on_intel do
       url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_darwin_amd64.tar.gz"
-      sha256 "65de8acb26b2b34a80522522daa3753ed80ed8992130625bfd382a2f73e1a572"
+      sha256 "f0691c90339200a0fd67f4e317e5e587c9ee7feadb4b826944f14fd1503d3ee7"
     end
     on_arm do
       url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_darwin_arm64.tar.gz"
-      sha256 "b722576a35aa4eee374746444fdc7a55de1db9164009090bb5ebeb8b722a9658"
+      sha256 "292345901e77a16a16a4daf2e39f01d8ad5e9d1ad6dbc400e667c4c907c49bfe"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_linux_amd64.tar.gz"
-      sha256 "3356f2fc6fcdec8cca981e4d8a1db0b3b0f07f6ba5494795d79eefa8fe6f0451"
+      sha256 "2c659a31aa0e54e7eadd5fa62b0d790839091ef21828c858504181335cad9c08"
     end
     on_arm do
       url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_linux_arm64.tar.gz"
-      sha256 "7dc03307828a250f6865f88f416a4351519180567e9c24733e4274459400298a"
+      sha256 "07ea0a8a716044e8ab1890f22cc1b3975c5ef63b5cc92374b3770d032eddbff5"
     end
   end
 
