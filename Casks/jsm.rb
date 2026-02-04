@@ -3,7 +3,7 @@ cask "jsm" do
   name "jsm"
   desc "JSON Schema Manager (jsm) - Registry-first tool for managing and validating JSON schemas."
   homepage "https://github.com/andyballingall/json-schema-manager"
-  version "1.0.2"
+  version "1.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "jsm" do
   on_macos do
     on_intel do
       url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_darwin_amd64.tar.gz"
-      sha256 "512cf31810880f8ea92359a4906410816794aaa53215ded9937cd1b90774835f"
+      sha256 "bcca65edc950f9571cfd46b2bb8f4b37d1bac0ce6ec2bbe1626c67a4eee4e7e2"
     end
     on_arm do
       url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_darwin_arm64.tar.gz"
-      sha256 "db2684edb1ed57bae4f7d99bafdd959a561fd99666cb2ecc43c380b4e43dd439"
+      sha256 "1dc2dfc2364d6b3d053ff274acb87d8a7e760dd85d55c5dbabaa45f00bab5cfc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_linux_amd64.tar.gz"
-      sha256 "fa9d4562029ffa40eeb5dee7eb2b9488755b3a51bb969b19dd4042a0e2025a0d"
+      sha256 "7c4fc677d01ba0f8c21ce4d7d4592b66086d1c152b5ff40a1cf6642fc1bfcabc"
     end
     on_arm do
       url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_linux_arm64.tar.gz"
-      sha256 "43c5d7c69f3b4a51bd3d44c00275ef3e30b75407bc95768b17b2848f296c167f"
+      sha256 "188fdb60e0f6a704426f93abb7002c9b29680e90024eeb3c6e09720afdcc66bf"
     end
   end
 
